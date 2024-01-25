@@ -1,0 +1,11 @@
+1. Write Difference between Document and Window object?
+
+document Object:
+Represents the HTML document loaded in the browser.
+Deals with document structure and content.
+Used for manipulating elements, handling events, and modifying content.
+
+window Object:
+Represents the browser window or global context.
+Manages the browser window, navigation, and global events.
+Includes properties like document, navigator, location, and history.

@@ -1,0 +1,40 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2?
+
+Answer:
+
+Multiplexing: HTTP/2 allows multiple requests and responses to be sent simultaneously over a single connection, improving efficiency compared to HTTP/1.1, which relies on multiple connections.
+
+Header Compression: HTTP/2 compresses header information, reducing overhead and improving performance. HTTP/1.1 sends headers in plaintext, leading to higher data transfer.
+
+Binary Protocol: HTTP/2 uses a binary protocol instead of plain text, making it more compact and efficient for data transfer. HTTP/1.1 uses a text-based format, which is less optimized.
+
+Server Push: HTTP/2 supports server push, enabling servers to proactively send resources to the client before they are requested, reducing latency. HTTP/1.1 lacks this feature.
+
+Prioritization: HTTP/2 allows for the prioritization of resources, ensuring critical resources are loaded first. In HTTP/1.1, resources are requested and loaded in the order they are encountered, without prioritization.
+
+2.Write a blog about objects and its internal representation in Javascript?
+
+Answer:
+
+1. Key-Value Structure:
+   JavaScript objects store data in key-value pairs, providing a versatile way to organize information.
+
+2. Properties and Methods:
+   Objects encapsulate data with properties and functionalities with methods, both internally represented for efficient access.
+
+3. Prototypes and Inheritance:
+   Objects use prototypes for inheritance, creating a chain for property and method resolution.
+
+4. Memory Representation:
+   Internally, objects employ dictionaries and hidden classes, dynamically allocating memory for flexibility.
+
+5. JSON Serialization:
+   JavaScript objects easily convert to JSON, a text-based format, streamlining data interchange and storage.
+
+References:
+
+Belshe, M., Peon, R., & Thomson, M. (2015). Hypertext Transfer Protocol version 2 (HTTP/2). IETF RFC 7540. https://tools.ietf.org/html/rfc7540.
+
+Flanagan, D. (2011). "JavaScript: The Definitive Guide." O'Reilly Media.
+
+Fielding, R., Gettys, J., Mogul, J., Frystyk, H., Masinter, L., Leach, P., & Berners-Lee, T. (1999). Hypertext Transfer Protocol -- HTTP/1.1. IETF RFC 2616. https://tools.ietf.org/html/rfc2616.
